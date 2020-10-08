@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MonProjet</string>
+    <string name="hello">Hello students !</string>
+    <string name="hello_b">Hello bugdroid !</string>
 </resources>
