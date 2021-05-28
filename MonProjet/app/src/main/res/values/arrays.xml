@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="tabVersion">
+    <string-array name="tabVersion">
         <item>Cupcake</item>
         <item>Donut</item>
         <item>Eclair</item>
@@ -16,5 +16,5 @@
         <item>Pie</item>
         <item>10</item>
         <item>11 Beta</item>
-    </array>
+    </string-array>
 </resources>

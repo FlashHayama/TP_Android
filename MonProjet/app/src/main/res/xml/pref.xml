@@ -6,4 +6,5 @@
         android:dialogTitle="Sélectionner votre version"
         android:entries="@array/tabVersion"
         android:entryValues="@array/tabVersion"/>
+
 </PreferenceScreen>

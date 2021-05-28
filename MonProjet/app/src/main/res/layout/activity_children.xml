@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     android:background="@color/bleu"
-    tools:context=".ChildrenActivity"
+    tools:context=".Activity.ChildrenActivity"
     >
     <ImageView
         android:id="@+id/iv_children_star"
@@ -59,6 +59,27 @@
         android:layout_height="wrap_content"
         android:onClick="onChildrenClickManager"
         android:text="Valider le formulaire"/>
+    <Button
+        android:id="@+id/bt_children_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onChildrenClickManager"
+        android:text="==> liste des versions"/>
+    <Button
+        android:id="@+id/bt_children_save"
+        android:background="@color/jaune"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onChildrenClickManager"
+        android:text="Sauvegarder information"/>
+    <Button
+        android:id="@+id/bt_children_Read"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onChildrenClickManager"
+        android:text="Lire le fichier"/>
+
 
 
 </LinearLayout>
